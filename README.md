@@ -1,15 +1,18 @@
-# 👷 `worker-template` Hello World
+# workers-graphql-proxy
 
-A template for kick starting a Cloudflare worker project.
+A Cloudflare Workers application for proxying GraphQL requests to a known origin, along with some goodies:
 
-[`index.js`](https://github.com/cloudflare/worker-template/blob/master/index.js) is the content of the Workers script.
+- Simple URL-based routing to your GraphQL server
+- Schema caching at the edge
+- Schema validation for incoming queries
+- Query/response caching at the edge using Workers KV (this is super experimental and not recommended for production data)
 
-#### Wrangler
+workers-graphql-proxy has been designed for usage with Hasura GraphQL Engine - check out my upcoming talk at HasuraCon 2020 to learn more about the project!
 
-To generate using [wrangler](https://github.com/cloudflare/wrangler)
+## Deployment
 
-```
-wrangler generate projectname https://github.com/cloudflare/worker-template
-```
+_Coming soon_
 
-Further documentation for Wrangler can be found [here](https://developers.cloudflare.com/workers/tooling/wrangler).
+## License
+
+MIT

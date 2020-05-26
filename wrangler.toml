@@ -2,3 +2,8 @@ name = "edge-proxy"
 type = "webpack"
 account_id = "dc56444c4c955a1653106ccf997c1067"
 workers_dev = true
+
+vars = { ENDPOINT = "https://cf-workers-hasura-integration.herokuapp.com/v1/graphql" }
+kv-namespaces = [
+  { binding = "GRAPHQL_STORE", id = "c6c38d73474e493fa8e341d175b45a87" }
+]
