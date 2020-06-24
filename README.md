@@ -1,6 +1,6 @@
 # workers-graphql-proxy
 
-[![Deploy to Cloudflare Workers](https://deploy-to-cf-workers.signalnerve.workers.dev/button)](https://deploy-to-cf-workers.signalnerve.workers.dev/button?url=https://github.com/signalnerve/workers-graphql-proxy)
+[![Deploy to Cloudflare Workers](https://deploy-to-cf-workers.signalnerve.workers.dev/button)](https://deploy-to-cf-workers.signalnerve.workers.dev/?url=https://github.com/signalnerve/workers-graphql-proxy)
 
 A Cloudflare Workers application for proxying GraphQL requests to a known origin, along with some goodies:
 
